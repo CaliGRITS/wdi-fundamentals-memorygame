@@ -1,0 +1,7 @@
+var students = ["Mark", "Melissa", "Noopur", "Olga", "Vivek"];
+
+// Loop over the array of students
+for (var i = 0; i < students.length; i += 1) {
+// Greet each student by name
+console.log("Hello " + students[i]);
+}
